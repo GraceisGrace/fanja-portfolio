@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fanja's Portfolio</title>
+<meta name="description" content="Health Nutrition & WASH Program Lead with 10+ years in Madagascar">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/variables.css">
+<link rel="stylesheet" href="css/style.css">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/regular/style.css"
+>
+<script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+<a class="skip-link" href="#home">Skip to content</a>
+
+<!-- Welcome animation overlay -->
+<div class="welcome-overlay" data-welcome-overlay aria-hidden="true">
+  <div class="welcome-content">
+
+    <div class="welcome-bg-text" aria-hidden="true">
+      WELCOME IN
+    </div>
+
+    <div class="welcome-image-wrap">
+      <img
+        src="/images/h.png"
+        alt="Fanja Rasoanjanahary"
+        class="welcome-image"
+      >
+    </div>
+
+    <p class="welcome-signature">
+      Fanja's Portfolio
+    </p>
+
+  </div>
+</div>
+
+<header class="site-header">
+  <nav class="container nav-inner" aria-label="Main navigation">
+    <a class="brand" href="#home" aria-label="Fanja's Portfolio home">
+      <img src="/images/g.png"alt="logo">
+        <path d="M24 40c-2-1.8-14-9-14-19a8 8 0 0 1 14-5.3A8 8 0 0 1 38 21c0 10-12 17.2-14 19Z" fill="var(--secondary)" stroke="var(--primary)" stroke-width="2" stroke-linejoin="round"/>
+        <path d="M24 15v10M19 20h10" stroke="var(--primary)" stroke-width="2.4" stroke-linecap="round"/>
+        <path d="M6 30c3.5 3 6 4 9 1.5M42 30c-3.5 3-6 4-9 1.5" stroke="var(--primary)" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+      <span class="brand-name">Fanja Rasoanjanahary</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#home" data-nav-link aria-current="page" data-i18n="nav.home">Home</a></li>
+      <li><a href="#about" data-nav-link data-i18n="nav.about">About me</a></li>
+      <li><a href="#skills" data-nav-link data-i18n="nav.skills">Skills</a></li>
+      <li><a href="#experience" data-nav-link data-i18n="nav.experience">Experience</a></li>
+      <li><a href="#library" data-nav-link data-i18n="nav.library">Library</a></li>
+      <li><a href="#contact"data-nav-link data-i18n="nav.contact">Let's Connect</a></li>
+    </ul>
+    <div class="nav-actions">
+      <a class="btn btn-primary" href="#contact" data-i18n="nav.contact">Contact me
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" data-lang="en" aria-pressed="true">EN</button>
+        <button type="button" data-lang="fr" aria-pressed="false">FR</button>
+      </div>
+      <button class="icon-btn" type="button" data-theme-toggle aria-pressed="false" aria-label="Toggle dark mode">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" stroke-linecap="round"/></svg>
+      </button>
+      <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ============================= HOME ============================= -->
+  <section id="home" class="page-hero container">
+    <div class="hero">
+      <div class="hero-content" data-hero-content>
+        <p class="eyebrow" data-i18n="home.eyebrow">Public Health Nutrition & WASH Lead</p>
+        <h1><span data-i18n="home.h1.pre">Hello, i'm &</span><br><span data-i18n="home.h1.grad">RASOANJANAHARY Fanjarinoro</span></h1>
+        <div class="hero-lede">
+          <p>
+            <span data-i18n="home.lede1.pre">Driven by public health and community impact, </span>
+            <span class="grad-text" data-i18n="home.lede1.grad">with 15+ years working</span>
+            <span data-i18n="home.lede1.post">alongside communities across the Central Highlands, Southern and Southeastern Madagascar.</span>
+          </p>
+          <p data-i18n="home.lede2">I design and lead projects that put people first; from training teams to delivering integrated health and nutrition programs. And I'm especially passionate about gender equality, youth empowerment, and ensuring every child's right to thrive.</p>
+        </div>
+        <div class="hero-cta">
+          <a class="btn btn-ghost" href="#library">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M3 15l5-5 4 4 5-6 4 5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <span data-i18n="home.cta.library">Visit my image library</span>
+          </a>
+          <a class="btn btn-primary" href="#contact" data-i18n="home.cta.contact">Contact me</a>
+        </div>
+        <div class="hero-contact-icons">
+          <a class="icon-btn" href="mailto:fandjah4all@gmail.com" aria-label="Email Fanja">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <a class="icon-btn" href="tel:+261342136901" aria-label="Call Fanja">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-portrait">
+        <div class="polaroid">
+          <div class="portrait-frame">
+            <img src="/images/home.png" alt="RASOANJANAHARY Fanjarinoro">
+          </div>
+          <div class="portrait-caption">
+            <strong data-i18n="home.name">RASOANJANAHARY Fanjarinoro</strong>
+            <span data-i18n="home.role">Health nutrition specialist</span>
+          </div>
+        </div>
+        <span class="status-chip"data-tilt><span class="status-dot" aria-hidden="true"></span><span data-i18n="home.status">Open to new opportunities</span></span>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- ============================= ABOUT ============================= -->
+  <section id="about" class="section container">
+    <h1 data-i18n="about.title">Meet Fanja</h1>
+    <div class="about-grid">
+      <div class="about-copy">
+        <p data-i18n="about.p1">I’m a woman who is passionate about community development and humanitarian action. And what matters most to me is helping vulnerable people live with dignity. I care deeply about community health, nutrition, and safe water and sanitation, with a strong focus on gender equity, youth leadership, and protecting every child’s right to thrive.</p>
+        <p data-i18n="about.p2">I’ve had the privilege to design and coordinate programs with organizations like Save the Children and Catholic Relief Services.<br> Moving from specialist to coordinator roles taught me how to turn strategy into action: managing complex projects, supporting teams, and adapting solutions to local realities.<br> My background blends social sciences and a Master’s in Private Law, with technical training that keeps me close to the field.</p>
+        <p data-i18n="about.p3">My goal is to lead high-impact programs that address both urgent needs and long-term resilience , I want to design interventions that respond to nutrition and health emergencies, while also strengthening community autonomy through sustainable, rights-based approaches. For me, success is when communities have the tools and confidence to drive change themselves.</p>
+      </div>
+      <div class="stat-grid">
+        <div class="card stat-card">
+          <div class="stat-figure" data-i18n="about.stat1.figure">01</div>
+          <div class="stat-label" data-i18n="about.stat1.label">Health and WASH Program Lead</div>
+        </div>
+        <div class="card stat-card">
+          <div class="stat-figure" data-i18n="about.stat2.figure">∞</div>
+          <div class="stat-label" data-i18n="about.stat2.label">Attentiveness & Flexibility</div>
+        </div>
+        <div class="card stat-card">
+          <div class="stat-figure" data-i18n="about.stat3.figure">24/7</div>
+          <div class="stat-label" data-i18n="about.stat3.label">Empowering communities and building resilience.</div>
+        </div>
+        <div class="card stat-card">
+          <div class="stat-figure" data-i18n="about.stat4.figure">+</div>
+          <div class="stat-label" data-i18n="about.stat4.label">Developing sustainable and inclusive programs.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= SKILLS ============================= -->
+  <section id="skills" class="section container">
+    <div class="skills-food-fresco" aria-hidden="true">
+      <i data-lucide="salad"></i>
+    </div>
+    <h1><span data-i18n="skills.title.pre">What I bring</span> <span class="grad-text" data-i18n="skills.title.grad">to the table</span></h1>
+
+    <div class="skills-grid">
+
+      <article class="card skill-card" data-skill-card data-open="false">
+        <div class="skill-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h5M9 16h2" stroke-linecap="round"/><circle cx="17" cy="16" r="3.4"/><path d="M17 14.6v1.6l1 .8" stroke-linecap="round"/></svg>
+        </div>
+        <h3 data-i18n="skill.pm.title">Program Management</h3>
+        <p data-i18n="skill.pm.desc">Lead and coordinate Health, Nutrition & WASH projects from start to finish.</p>
+        <button class="skill-toggle" type="button" aria-expanded="false">
+          <span data-i18n="skill.pm.tag" data-toggle-label>Proposal Writing</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="skill-panel"><div class="skill-panel-inner">
+          <ul>
+            <li data-i18n="skill.pm.1">Logical Framework</li>
+            <li data-i18n="skill.pm.2">Operational Planning</li>
+            <li data-i18n="skill.pm.3">Budget Management</li>
+            <li data-i18n="skill.pm.4">Risk and safeguarding assessment</li>
+          </ul>
+        </div></div>
+      </article>
+
+      <article class="card skill-card" data-skill-card data-open="false">
+        <div class="skill-icon" aria-hidden="true">
+          <i data-lucide="heart-plus"></i>
+        </div>
+        <h3 data-i18n="skill.ch.title">Community Health</h3>
+        <p data-i18n="skill.ch.desc">Improve access to healthcare and prevention in vulnerable communities.</p>
+        <button class="skill-toggle" type="button" aria-expanded="false">
+          <span data-i18n="skill.ch.tag" data-toggle-label>Community Mobilization</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="skill-panel"><div class="skill-panel-inner">
+          <ul>
+            <li data-i18n="skill.ch.1">Care Group Model</li>
+            <li data-i18n="skill.ch.2">CHW Training</li>
+            <li data-i18n="skill.ch.3">Health Education</li>
+            <li data-i18n="skill.ch.4">MoH Coordination</li>
+          </ul>
+        </div></div>
+      </article>
+
+      <article class="card skill-card" data-skill-card data-open="false">
+        <div class="skill-icon" aria-hidden="true">
+          <i data-lucide="salad"></i>
+        </div>
+        <h3 data-i18n="skill.nut.title">Nutrition</h3>
+        <p data-i18n="skill.nut.desc">Combat malnutrition and promote good feeding practices.</p>
+        <button class="skill-toggle" type="button" aria-expanded="false">
+          <span data-i18n="skill.nut.tag" data-toggle-label>Acute malnutrition screening (IPC)</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="skill-panel"><div class="skill-panel-inner">
+          <ul>
+            <li data-i18n="skill.nut.1">SAM/MAM Management</li>
+            <li data-i18n="skill.nut.2">IYCF Counseling</li>
+            <li data-i18n="skill.nut.3">School Feeding</li>
+            <li data-i18n="skill.nut.4">Nutrition Surveillance</li>
+          </ul>
+        </div></div>
+      </article>
+
+      <article class="card skill-card" data-skill-card data-open="false">
+        <div class="skill-icon" aria-hidden="true">
+          <i data-lucide="droplet"></i>
+        </div>
+        <h3 data-i18n="skill.wash.title">WASH</h3>
+        <p data-i18n="skill.wash.desc">Ensure access to safe water, sanitation and hygiene for all.</p>
+        <button class="skill-toggle" type="button" aria-expanded="false">
+          <span data-i18n="skill.wash.tag" data-toggle-label>CLTS</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="skill-panel"><div class="skill-panel-inner">
+          <ul>
+            <li data-i18n="skill.wash.1">Essential Hygiene Actions</li>
+            <li data-i18n="skill.wash.2">Safe Water Access</li>
+            <li data-i18n="skill.wash.3">WASH Distribution</li>
+            <li data-i18n="skill.wash.4">School WASH</li>
+          </ul>
+        </div></div>
+      </article>
+
+      <article class="card skill-card" data-skill-card data-open="false">
+        <div class="skill-icon" aria-hidden="true">
+          <i data-lucide="user-group"></i>
+        </div>
+        <h3 data-i18n="skill.team.title">Team Leadership</h3>
+        <p data-i18n="skill.team.desc">Manage teams and build local capacity on the ground.</p>
+        <button class="skill-toggle" type="button" aria-expanded="false">
+          <span data-i18n="skill.team.tag" data-toggle-label>Team Supervision</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="skill-panel"><div class="skill-panel-inner">
+          <ul>
+            <li data-i18n="skill.team.1">Capacity Building</li>
+            <li data-i18n="skill.team.2">Training Facilitation</li>
+            <li data-i18n="skill.team.3">Field Coaching</li>
+            <li data-i18n="skill.team.4">Multi-sectoral Coordination</li>
+          </ul>
+        </div></div>
+      </article>
+
+      <article class="card skill-card" data-skill-card data-open="false">
+        <div class="skill-icon" aria-hidden="true">
+          <i data-lucide="chart-no-axes-combined"></i>
+        </div>
+        <h3 data-i18n="skill.meal.title">Monitoring & Impact</h3>
+        <p data-i18n="skill.meal.desc">Collect data and measure results for sustainable programs.</p>
+        <button class="skill-toggle" type="button" aria-expanded="false">
+          <span data-i18n="skill.meal.tag" data-toggle-label>MEAL System</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="skill-panel"><div class="skill-panel-inner">
+          <ul>
+            <li data-i18n="skill.meal.1">Data Collection</li>
+            <li data-i18n="skill.meal.2">CommCare</li>
+            <li data-i18n="skill.meal.3">Data Quality Control</li>
+            <li data-i18n="skill.meal.4">Accountability (FRM)</li>
+          </ul>
+        </div></div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============================= EXPERIENCE ============================= -->
+  <section id="experience" class="section container">
+    <h1 data-i18n="exp.title">My Career Journey</h1>
+
+    <div class="exp-track-wrap" data-exp-wrap>
+      <div class="exp-track" data-exp-track>
+
+        <div class="exp-part">
+          <div class="card exp-card"><span class="exp-dot" aria-hidden="true"></span>
+            <div><h3 data-i18n="exp.field.title">Field Expert</h3>
+            <p data-i18n="exp.field.desc">Spent 15 years on the ground implementing Nutrition and WASH programs and empowering communities through $2M worth of projects.</p></div>
+          </div>
+          <div class="card exp-card"><span class="exp-dot" aria-hidden="true"></span>
+            <div><h3 data-i18n="exp.systems.title">Systems Builder</h3>
+            <p data-i18n="exp.systems.desc">Standardized school feeding across 162 schools and trained 35 field agents to build stronger, more reliable nutrition systems.</p></div>
+          </div>
+          <div class="card exp-card"><span class="exp-dot" aria-hidden="true"></span>
+            <div><h3 data-i18n="exp.coord.title">Program Coordinator</h3>
+            <p data-i18n="exp.coord.desc">Coordinate a $3M Health-Nutrition-WASH program, driving planning, delivery and data quality to reach 95% reporting timeliness.</p></div>
+          </div>
+          <div class="card exp-card"><span class="exp-dot" aria-hidden="true"></span>
+            <div><h3 data-i18n="exp.safe.title">Safeguarding Champion</h3>
+            <p data-i18n="exp.safe.desc">Lead child protection and safeguarding for the Vatovavy region, ensuring every project is safe, ethical, and risk-assessed.</p></div>
+          </div>
+        </div>
+
+        <div class="exp-part">
+          <div class="card exp-card"><span class="exp-dot" aria-hidden="true"></span>
+            <div><h3 data-i18n="exp.strategic.title">Strategic Leader</h3>
+            <p data-i18n="exp.strategic.desc">Drive national program strategy and mobilized $1.25M in new funding to expand life-saving Health and Nutrition services.</p></div>
+          </div>
+          <div class="card exp-card"><span class="exp-dot" aria-hidden="true"></span>
+            <div><h3 data-i18n="exp.partner.title">Proposal & Partnerships Lead</h3>
+            <p data-i18n="exp.partner.desc">Develop concept notes, logical frameworks and budgets. Represent SCI to government and donors at regional and national level.</p></div>
+          </div>
+          <div class="card exp-card"><span class="exp-dot" aria-hidden="true"></span>
+            <div><h3 data-i18n="exp.dataspec.title">MEAL & Data Specialist</h3>
+            <p data-i18n="exp.dataspec.desc">Build and manage data collection systems, ICT4MEAL tools and databases to ensure evidence-based decision making.</p></div>
+          </div>
+          <div class="card exp-card"><span class="exp-dot" aria-hidden="true"></span>
+            <div><h3 data-i18n="exp.capacity.title">Capacity Builder & Trainer</h3>
+            <p data-i18n="exp.capacity.desc">Design curricula and facilitate training for community health volunteers, field agents and project teams with Ministry of Health.</p></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="exp-dots" data-exp-dots role="tablist" aria-label="Career journey parts">
+      <button type="button" aria-current="true" aria-label="Part 1 of 2"></button>
+      <button type="button" aria-current="false" aria-label="Part 2 of 2"></button>
+    </div>
+
+    <div class="impact-banner">
+      <h3 data-i18n="exp.impact.title">Impact at a glance</h3>
+      <div class="impact-stats">
+        <div><strong>15+</strong><span data-i18n="exp.impact.years">Years Field Experience</span></div>
+        <div><strong>162</strong><span data-i18n="exp.impact.schools">Schools Supported</span></div>
+        <div><strong data-i18n="exp.impact.expertise">Health & Law Expertise</strong></div>
+        <div><strong>$6.25M+</strong><span data-i18n="exp.impact.budget">Programs Managed</span></div>
+        <div><strong>35+</strong><span data-i18n="exp.impact.trained">People Trained</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= LIBRARY ============================= -->
+  <section id="library" class="section container">
+    <h1><span data-i18n="lib.title.pre">My Work</span> <span class="grad-text" data-i18n="lib.title.grad">in Pictures</span></h1>
+
+    <div class="carousel">
+      <div class="carousel-viewport" data-carousel-viewport>
+        <div class="carousel-track" data-carousel-track>
+
+          <div class="carousel-slide">
+            <figure class="lib-figure" data-lib-figure tabindex="0" role="button"
+              data-title="National PNAMN Review Workshop"
+              data-place="Antsirabe, Madagascar — 2025"
+              data-desc="A week reviewing the national PNAMN. Long days, lots of notes, and we still had enough energy left to gather on the grass for this photo."
+              data-img="/images/c.jpeg">
+              <div class="photo"><img src="/images/c.jpeg" alt="National PNAMN Review Workshop"></div>
+              <figcaption class="lib-caption">
+                <h3 data-i18n="lib.item3.title">National PNAMN Review Workshop</h3>
+                <div class="lib-meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-6-5.6-6-10a6 6 0 1 1 12 0c0 4.4-6 10-6 10Z"/><circle cx="12" cy="11" r="2.2"/></svg><span data-i18n="lib.item3.place">Antsirabe, Madagascar — 2025</span></div>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="carousel-slide">
+            <figure class="lib-figure" data-lib-figure tabindex="0" role="button"
+              data-title="Training of CHWs and CRENI Managers on IYCF-E"
+              data-place="Amboasary Sud — 2026"
+              data-desc="We spent a good day training on IYCF-E, which didn't stop us from redoing the demo three times because we kept laughing. We left tired, but feeling like it would actually be useful."
+              data-img="/images/d.jpeg">
+              <div class="photo"><img src="/images/d.jpeg" alt="Training of CHWs and CRENI Managers on IYCF-E"></div>
+              <figcaption class="lib-caption">
+                <h3 data-i18n="lib.item4.title">Training of CHWs and CRENI Managers on IYCF-E</h3>
+                <div class="lib-meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-6-5.6-6-10a6 6 0 1 1 12 0c0 4.4-6 10-6 10Z"/><circle cx="12" cy="11" r="2.2"/></svg><span data-i18n="lib.item4.place">Amboasary Sud — 2026</span></div>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="carousel-slide">
+            <figure class="lib-figure" data-lib-figure tabindex="0" role="button"
+              data-title="IPC Acute Malnutrition Analysis Workshop"
+              data-place="Antsirabe, Madagascar — 2025"
+              data-desc="A full day digging into acute malnutrition data. We argued a lot, got stuck, started over, and finally agreed on a table that made sense."
+              data-img="/images/a.jpeg">
+              <div class="photo"><img src="/images/a.jpeg" alt="IPC Acute Malnutrition Analysis Workshop"></div>
+              <figcaption class="lib-caption">
+                <h3 data-i18n="lib.item1.title">IPC Acute Malnutrition Analysis Workshop</h3>
+                <div class="lib-meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-6-5.6-6-10a6 6 0 1 1 12 0c0 4.4-6 10-6 10Z"/><circle cx="12" cy="11" r="2.2"/></svg><span data-i18n="lib.item1.place">Antsirabe, Madagascar — 2025</span></div>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="carousel-slide">
+            <figure class="lib-figure" data-lib-figure tabindex="0" role="button"
+              data-title="JMoFA Project Capitalization Workshop"
+              data-place="Antsirabe, Madagascar — 2025"
+              data-desc="We had just wrapped up the project capitalization and just wanted a quick group photo before the rain. It's not perfect, but it sums up the vibe: we did it together."
+              data-img="/images/b.jpeg">
+              <div class="photo"><img src="/images/b.jpeg" alt="JMoFA Project Capitalization Workshop"></div>
+              <figcaption class="lib-caption">
+                <h3 data-i18n="lib.item2.title">JMoFA Project Capitalization Workshop</h3>
+                <div class="lib-meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-6-5.6-6-10a6 6 0 1 1 12 0c0 4.4-6 10-6 10Z"/><circle cx="12" cy="11" r="2.2"/></svg><span data-i18n="lib.item2.place">Antsirabe, Madagascar — 2025</span></div>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="carousel-slide">
+            <figure class="lib-figure" data-lib-figure tabindex="0" role="button"
+              data-title="Provision of Supplies for the M-Pox Response"
+              data-place="Fort Dauphin — 2026"
+              data-desc="Distribution of WASH supplies to households as part of an emergency response programme."
+              data-img="/images/e.jpeg">
+              <div class="photo"><img src="/images/e.jpeg" alt="Provision of Supplies for the M-Pox Response"></div>
+              <figcaption class="lib-caption">
+                <h3 data-i18n="lib.item5.title">Provision of Supplies for the M-Pox Response</h3>
+                <div class="lib-meta"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-6-5.6-6-10a6 6 0 1 1 12 0c0 4.4-6 10-6 10Z"/><circle cx="12" cy="11" r="2.2"/></svg><span data-i18n="lib.item5.place">Fort Dauphin — 2026</span></div>
+              </figcaption>
+            </figure>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="carousel-nav">
+        <button class="carousel-arrow" type="button" data-carousel-prev aria-label="Previous">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <div class="carousel-dots" data-carousel-dots></div>
+        <button class="carousel-arrow" type="button" data-carousel-next aria-label="Next">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+      </div>
+      <p class="carousel-hint"><span class="rule" aria-hidden="true"></span><span data-i18n="lib.hint">Here to switch</span><span class="rule" aria-hidden="true"></span></p>
+    </div>
+  </section>
+
+  <!-- ============================= CONTACT ============================= -->
+  <section id="contact" class="section container">
+    <div class="contact-grid">
+      <div>
+        <h1><span data-i18n="contact.title.pre">Partnering for</span> <span class="grad-text" data-i18n="contact.title.grad">stronger communities!</span></h1>
+        <p data-i18n="contact.lede">Looking for an experienced professional in Health, Nutrition, WASH, and School Feeding? I'm open to professional opportunities, collaborations, and impact-driven projects.</p>
+
+        <div class="contact-info-list">
+          <div class="contact-info-item">
+            <span class="icon-btn" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="4"/><path d="M7 10v7M7 7v.01M12 17v-4.5a2.5 2.5 0 0 1 5 0V17M12 17v-7" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <a href="linkedin.com/in/fanjarinoro-rasoanja-21990423a" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+          <div class="contact-info-item">
+            <span class="icon-btn" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <a href="mailto:fandjah4all@gmail.com">fandjah4all@gmail.com</a>
+          </div>
+          <div class="contact-info-item">
+            <span class="icon-btn" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <a href="tel:+261342136901">+261 34 21 369 01</a>
+          </div>
+          <div class="contact-info-item">
+            <span class="icon-btn" aria-hidden="true">
+              <i data-lucide="map-pin"></i>
+            </span>
+            <span data-i18n="contact.location">Antananarivo Madagascar</span>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" data-contact-form novalidate>
+        <input type="hidden" name="access_key" value="4a27e302-990c-4513-9d2c-15988a9257a5">
+        <div class="form-row">
+          <label for="name" data-i18n="contact.form.name">Your name</label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+        </div>
+        <div class="form-row">
+          <label for="email" data-i18n="contact.form.email">Your email</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+        <div class="form-row">
+          <label for="subject" data-i18n="contact.form.subject">What's this about?</label>
+          <input type="text" id="subject" name="subject" required>
+        </div>
+        <div class="form-row">
+          <label for="message" data-i18n="contact.form.message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit" style="width:100%;" data-i18n="contact.form.send">Send message</button>
+        <p class="form-status" data-form-status role="status"></p>
+        <p class="form-note" data-i18n="contact.form.note">Your details are only used to reply to you. Never share passwords here.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<div class="lightbox" data-lightbox aria-hidden="true">
+  <div class="lightbox-inner" role="dialog" aria-modal="true" aria-label="Image details">
+    <div class="lightbox-photo">
+      <img data-lightbox-image src="" alt="">
+    </div>
+    <div class="lightbox-body">
+      <button class="lightbox-close" type="button" data-lightbox-close aria-label="Close">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"/></svg>
+      </button>
+      <h3 data-lightbox-title></h3>
+      <p class="lib-meta" data-lightbox-meta style="color:var(--text-muted); margin-bottom: 0.75rem;"></p>
+      <p data-lightbox-desc></p>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p data-i18n="footer.rights">© 2026 FANJARINORO Rasoanjanahary. All rights reserved.</p>
+    <div class="footer-right">
+      <p data-i18n="footer.credit1">Portfolio designed & developed by Gracia Andyellah.</p>
+      <p data-i18n="footer.credit2">Contact me : +261 37 88 329 21</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/translation.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

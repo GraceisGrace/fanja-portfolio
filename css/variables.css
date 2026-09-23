@@ -1,0 +1,93 @@
+/* ==========================================================================
+   Fanja's Portfolio — Design Tokens
+   ========================================================================== */
+
+:root {
+  /* --- Brand palette (fixed by brief) --- */
+  --primary: #7B8CFF;        /* Lavender Blue */
+  --secondary: #DDE1FF;      /* Light Lavender */
+  --text-dark: #0A1A2F;      /* Navy */
+  --text-light: #FFFFFF;
+
+  --bg-grad-start: #F5F3FF;
+  --bg-grad-end: #EFF6FF;
+
+  /* --- Derived tones (same family, used for depth/hover states) --- */
+  --primary-600: #6270E8;
+  --primary-100: #EEF0FF;
+  --accent-violet: #A78BFA;  /* used only in the Home chromatic-text gradient */
+  --line: rgba(10, 26, 47, 0.10);
+  --shadow-color: rgba(123, 140, 255, 0.18);
+
+  /* --- Semantic roles (Light mode / default) --- */
+  --bg: var(--bg-grad-start);
+  --bg-gradient: linear-gradient(135deg, #EEF0FF 0%, #DCE4FF 45%, #F5F3FF 100%);
+  --surface: #FFFFFF;
+  --surface-alt: var(--secondary);
+  --text: var(--text-dark);
+  --text-muted: rgba(10, 26, 47, 0.64);
+  --border: var(--line);
+  --banner-bg: var(--text-dark);
+  --banner-text: var(--text-light);
+
+  /* --- Typography --- */
+--font-display: 'Sora', 'Gotham', 'Poppins', sans-serif;
+--font-body: 'Manrope', 'Hagrid Text', 'Inter', sans-serif;
+
+--fs-h1: clamp(3rem, 6vw, 5rem);
+--fs-h2: clamp(2.5rem, calc(3vw + 1rem), 4rem);
+--fs-h3: clamp(1.25rem, calc(1.2vw + 1rem), 1.6rem);
+
+--fs-body: 1.05rem;
+--fs-small: 0.92rem;
+
+--lh-tight: 1.08;
+--lh-body: 1.65;
+
+  /* --- Spacing scale --- */
+  --space-1: 0.5rem;
+  --space-2: 0.75rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --space-6: 3rem;
+  --space-7: 4.5rem;
+  --space-8: 6rem;
+
+  /* --- Layout --- */
+  --container-max: 1500px;
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+
+  --shadow-card: 0 18px 40px -20px var(--shadow-color);
+  --shadow-hover: 0 24px 48px -18px var(--shadow-color);
+
+  --nav-height: 84px;
+
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 180ms;
+  --dur-med: 420ms;
+  --dur-slow: 900ms;
+}
+
+/* --- Dark mode: same palette, inverted roles --- */
+[data-theme="dark"] {
+  --bg: #0F172A;
+  --bg-gradient: linear-gradient(160deg, #0F172A 0%, #1E293B 100%);
+  --surface: #16213A;
+  --surface-alt: #1C2A4A;
+  --text: #F4F6FF;
+  --text-muted: rgba(244, 246, 255, 0.66);
+  --border: rgba(221, 225, 255, 0.14);
+  --banner-bg: #060B16;
+  --banner-text: #F4F6FF;
+  --shadow-color: rgba(0, 0, 0, 0.45);
+  --primary-100: #26305C;
+}
+
+@media (max-width: 380px) {
+  .container { padding-inline: var(--space-3); }
+  .hero-cta { flex-direction: column; align-items: stretch; }
+}
