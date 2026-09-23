@@ -996,7 +996,7 @@ main { display: block; }
       rgba(145, 165, 245, 0.35) 30%,
       rgba(145, 165, 245, 0) 55%
     ),
-    url("/images/f2.png");
+    url("../images/f2.png");
 
   background-repeat: no-repeat;
 
